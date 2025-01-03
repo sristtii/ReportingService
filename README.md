@@ -1,8 +1,8 @@
-# ReportingService
+## ReportingService
 
 A Spring Boot-based Reporting Service that handles credit card reporting functionality. This service integrates with Kafka for event-driven architecture and provides REST APIs for creating and retrieving credit card reports. 
 
-## Features
+### Features
 
 - **Create Credit Card Reports (POST API)**: Allows the creation of credit card reports
 - **Retrieve Credit Card Reports (GET APIs)**:
@@ -11,7 +11,7 @@ A Spring Boot-based Reporting Service that handles credit card reporting functio
 - **Kafka Integration**: Consumes messages from the POST API and processes them using an event-driven approach.
 - **Database**: Integrates with PostgreSQL to store and manage credit card reports.
 
-## Technologies Used
+### Technologies Used
 
 - **Spring Boot**: Framework for building the REST API.
 - **PostgreSQL**: Database for storing credit card reports.
